@@ -7,7 +7,7 @@ This python package is prepared by Cuong Than.
 
 Install
 
-`pip install git+ssh://git@github.com/hungcuongthan/preprocess_hungcuongthan.git`
+`pip install git+https://github.com/hungcuongthan/preprocess_hungcuongthan.git`
 
 Uninstall
 
