@@ -54,7 +54,7 @@ def remove_html_tags(x):
     return utils._remove_html_tags(x)
 
 def remove_accented_chars(x):
-    return utils.remove_accented_chars(x)
+    return utils._remove_accented_chars(x)
 
 def remove_stopwords(x):
     return utils._remove_stopwords(x)
@@ -63,10 +63,10 @@ def make_base(x):
     return utils._make_base(x)
     
 def remove_common_words(x, n = 20):
-    return utils.remove_common_words(x, n = 20)
+    return utils._remove_common_words(x, n = 20)
     
 def remove_rare_words(x , n = 20):
-    return utils.remove_rare_words(x , n = 20)
+    return utils._remove_rare_words(x , n = 20)
     
 def spelling_correction(x):
-    return utils.spelling_correction(x)
+    return utils._spelling_correction(x)
